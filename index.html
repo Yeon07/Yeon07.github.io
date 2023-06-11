@@ -174,6 +174,32 @@
                            </div>
                         </div>
                      </li>
+                     <li>
+                        <div class="row">
+                           <div class="col-sm-4">
+                              <figure>
+                                 <picture>
+                                    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/kim2023improving-480.webp">
+                                    </source> 
+                                    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/kim2023improving-800.webp">
+                                    </source> 
+                                    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/kim2023improving-1400.webp">
+                                    </source> <img src="/assets/img/publication_preview/kim2023improving.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> 
+                                 </picture>
+                              </figure>
+                           </div>
+                           <div id="kim2023patch" class="col-sm-8">
+                              <div class="title">Patch Aware Matching for Vision Transformer based Self-Supervised Learning Frameworks</div>
+                              <div class="author"> <em>Seoyeon Kim</em>,  Minguk Kang,  and Jaesik Park </div>
+                              <div class="periodical"> <em>Image Processing and Image Understanding (<b>IPIU</b>),</em> Bronze Aware, 2023 </div>
+                              <!-- <div class="periodical"> <em>International Conference on Neural Information Processing Systems (<b>NeurlPS</b>),</em> 2023 </div> -->
+                              <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a> </div>
+                              <div class="abstract hidden">
+                                 <p>Self-supervised Learning (SSL) is a field that learns meaningful representations from large unlabeled datasets and finetunes such representations to target downstream tasks. Recently, many SSL methods that employ the Vision Transformer based Teacher-Student framework with different losses have been proven effective—even effective enough to outperform their supervised counterparts trained with labeled data. In line with this effective ViT-based Teacher-Student framework, we propose a new loss named “Patch Aware Matching (PAM)” which performs patch token feature distillation across the local view features output from the student and global view features output from the teacher. We hypothesize that such an approach learns “local-to-global” correspondence along with local, structural information on the patch level. When trained and evaluated under the k-NN protocol with a ViT-Small/16 backbone, our approach outperforms state-of-the-art methods on the 100 easiest classes of ImageNet-1K but falls behind on 10% of ImageNet. Also, we come across interesting results that suggest that easier classes of ImageNet-1K are more sample efficient. As a work in progress, we aim to further develop our method and investigate sample efficiency of different ImageNet-1K classes.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
                      <!--
                      <li>
                         <div class="row">
